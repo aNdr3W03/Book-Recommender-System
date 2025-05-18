@@ -80,7 +80,7 @@ Berdasarkan tujuan dari proyek yang telah dipaparkan di atas, maka berikut adala
       - Cosine Similarity  
         Teknik *cosine similarity* digunakan untuk melakukan perhitungan derajat kesamaan (*similarity degree*) antara dua sampel. [[7]](https://www.sciencedirect.com/topics/computer-science/cosine-similarity 'Cosine Similarity - ScienceDirect Topics')
         
-        $$S_c(A,B)=cos(\theta)= \frac{A \times B}{\|A\| \|B\|} = \frac{\displaystyle\sum^{n}_{i=1} A_iB_i}{\sqrt{\displaystyle\sum^{n}_{i=1} A^{2}_{i} } \sqrt{\displaystyle\sum^{n}_{i=1} B^{2}_{i}} }$$
+        $$S_c(A,B) = \cos(\theta) = \frac{A \times B}{\|A\| \|B\|} = \frac{\displaystyle\sum_{i=1}^{n} {A_i}{B_i}}{\sqrt{\displaystyle\sum_{i=1}^{n} A_{i}^{2}} \sqrt{\displaystyle\sum_{i=1}^{n} B_{i}^{2}}}$$        
         
         Di mana $A_i$ dan $B_i$ merupakan komponen dari masing-masing vektor A dan B.
         
